@@ -17,8 +17,8 @@
                 'enabled' => get_option('twitter_signin_enabled'),
                 'icon' => 'twitter',
             ),
-            'windowslive' => array(
-                'enabled' => get_option('windowslive_signin_enabled'),
+            'msgraph' => array(
+                'enabled' => get_option('msgraph_signin_enabled'),
                 'icon' => 'windows',
             ),
             'yahoo' => array(

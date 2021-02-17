@@ -20,15 +20,15 @@
             ),
             "Twitter" => array(
                 "enabled" => get_option('twitter_signin_enabled'),
-                "keys" => array("id" => get_option("SOCIAL_LOGIN_LIVE_ID"), "secret" => get_option("SOCIAL_LOGIN_LIVE_SECRET")),
+                "keys" => array("id" => get_option("SOCIAL_LOGIN_TWITTER_ID"), "secret" => get_option("SOCIAL_LOGIN_TWITTER_SECRET")),
             ),
-            "WindowsLive" => array(
-                "enabled" => get_option('windowslive_signin_enabled'),
-                "keys" => array("id" => get_option("SOCIAL_LOGIN_LIVE_ID"), "secret" => get_option("SOCIAL_LOGIN_LIVE_SECRET")),
+            "MicrosoftGraph" => array(
+                "enabled" => get_option('msgraph_signin_enabled'),
+                "keys" => array("id" => get_option("SOCIAL_LOGIN_MSGRAPH_ID"), "secret" => get_option("SOCIAL_LOGIN_MSGRAPH_SECRET")),
             ),
             "Yahoo" => array(
                 "enabled" => get_option('yahoo_signin_enabled'),
-                "keys" => array("id" => get_option("SOCIAL_LOGIN_LIVE_ID"), "secret" => get_option("SOCIAL_LOGIN_LIVE_SECRET")),
+                "keys" => array("id" => get_option("SOCIAL_LOGIN_YAHOO_ID"), "secret" => get_option("SOCIAL_LOGIN_YAHOO_SECRET")),
             ),
             "OpenID" => array(
                 "enabled" => get_option('oidc_signin_enabled'),

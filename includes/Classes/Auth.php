@@ -120,7 +120,7 @@ class Auth
             case 'facebook':
             case 'linkedIn':
             case 'twitter':
-            case 'windowslive':
+            case 'msgraph':
             case 'yahoo':
             case 'openid':
                 break;

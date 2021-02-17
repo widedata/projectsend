@@ -47,13 +47,13 @@
                     ),
                     'callback' => true,
                 ),
-                'windowslive' => array(
+                'msgraph' => array(
                     'name' => 'Windows Live',
                     'icon' => 'windows',
                     'fields' => array(
-                        'enabled' => 'windowslive_signin_enabled',
-                        'id' => 'windowslive_client_id',
-                        'secret' => 'windowslive_client_secret',
+                        'enabled' => 'msgraph_signin_enabled',
+                        'id' => 'msgraph_client_id',
+                        'secret' => 'msgraph_client_secret',
                     ),
                     'callback' => true,
                 ),
