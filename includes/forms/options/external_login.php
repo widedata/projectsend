@@ -48,7 +48,7 @@
                     'callback' => true,
                 ),
                 'msgraph' => array(
-                    'name' => 'Windows Live',
+                    'name' => 'Microsoft Graph',
                     'icon' => 'windows',
                     'fields' => array(
                         'enabled' => 'msgraph_signin_enabled',
